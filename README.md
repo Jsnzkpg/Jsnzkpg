@@ -1,4 +1,4 @@
-🔥永久免费的VPN加速器梯子🔥 https://www.bjch110.com/?mid=3039
+🔥永久免费的VPN加速器梯子🔥 https://www.bjch123.com/?mid=3039
 
 TG电报频道链接🔗 https://t.me/Jsnzk
 
@@ -6,7 +6,5 @@ TG电报频道链接🔗 https://t.me/Jsnzk
 
 🎬频道永久订阅（翻墙导入） 
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
-
-🎬订阅转换 https://sub.v1.mk/
 
 🏆订阅链接永久不变，节点每天都会更新，请设置成1天更新1次，如果用不了就把订阅转换成你相对应的代理工具即可
