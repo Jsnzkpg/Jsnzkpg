@@ -2,8 +2,9 @@ name: Sync Jsnzkpg from upstream repository
 
 on:
   push:
-    branches:
-      - main
+    branches:[ main ]
+  schedule:
+    - cron: '0 0 * * *'  # 每天上午9点，自动开始执行
 
 jobs:
   sync-jsnzkpg:
