@@ -3,7 +3,7 @@ name: Sync Jsnzkpg from upstream repository
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # every 30 minutes
+   # - cron: '*/30 * * * *' # every 30 minutes
   workflow_dispatch: # on button click
 
 jobs:
