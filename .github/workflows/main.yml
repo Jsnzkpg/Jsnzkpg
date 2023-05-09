@@ -25,3 +25,24 @@ jobs:
           commit_message: "Sync Jsnzkpg from upstream repository"
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
+          
+          
+name: Sync Jsnzkpg from upstream repository
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # every 30 minutes
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: Jsnzkpg/Jsnzkpg
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          owner: lwhx
+          base: master
+          head: master       
