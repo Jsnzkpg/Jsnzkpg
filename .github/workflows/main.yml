@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Jsnzkpg/Jsnzkpg@v1
+      - uses: Jsnzkpg/Jsnzkpg
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           owner: lwhx
