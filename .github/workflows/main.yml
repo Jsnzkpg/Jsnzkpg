@@ -1,32 +1,4 @@
-name: Sync Jsnzkpg from upstream repository
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  sync-jsnzkpg:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout upstream repository
-        uses: actions/checkout@v2
-        with:
-          repository: https://github.com/Jsnzkpg/Jsnzkpg
-          ref: main
-          path: upstream
-
-      - name: Copy Jsnzkpg
-        run: cp upstream/Jsnzkpg .
-
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Sync Jsnzkpg from upstream repository"
-          commit_user_name: "GitHub Actions"
-          commit_user_email: "actions@github.com"
-          
-          
+      
 name: Sync Jsnzkpg from upstream repository
 
 on:
@@ -40,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Jsnzkpg/Jsnzkpg
+      - uses: Jsnzkpg/Jsnzkpg@v1
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           owner: lwhx
