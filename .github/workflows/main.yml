@@ -1,20 +1,17 @@
-      
-name: Sync Jsnzkpg from upstream repository
-
+name: Auto Pull Jsnzkpg
 on:
   schedule:
-   # - cron: '*/30 * * * *' # every 30 minutes
-  workflow_dispatch: # on button click
-
+    - cron: '0 0 * * *' # 每天 UTC 00:00 更新
 jobs:
-  sync:
-
+  pull:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: Jsnzkpg/Jsnzkpg@master
+      - name: Checkout code
+        uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
-          owner: lwhx
-          base: master
-          head: master       
+          repository: Jsnzkpg/Jsnzkpg # 仓库地址
+      - name: Pull changes
+        run: |
+          git checkout main # 切换到主分支
+          git pull origin main # 拉取最新代码
+          cp Jsnzkpg /Jsnzkpg # 复制文件到目标路径
