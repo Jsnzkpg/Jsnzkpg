@@ -1,0 +1,28 @@
+name: Sync Jsnzkpg from upstream repository
+
+on:
+  push:
+    branches:[ main ]
+  schedule:
+    - cron: '0 0 * * *'  # 每天上午9点，自动开始执行
+
+jobs:
+  sync-jsnzkpg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout upstream repository
+        uses: actions/checkout@v2
+        with:
+          repository: https://github.com/Jsnzkpg/Jsnzkpg
+          ref: main
+          path: upstream
+
+      - name: Copy Jsnzkpg
+        run: cp upstream/Jsnzkpg .
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Sync Jsnzkpg from upstream repository"
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "actions@github.com"
