@@ -30,7 +30,7 @@
         {"name": "👖茅台","remark":"✈️TG频道@stymei1","url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn"},
         {"name": "👖如意","remark":"✈️TG频道@stymei1","url": "http://cj.rycjapi.com/api.php/provide/vod/?ac=list"},
         {"name": "👖量子","remark":"✈️TG频道@stymei1","url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list"},
-        {"name": "👖卧龙","remark":"✈️TG频道@stymei1","url": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list"},
+        {"name": "👖卧龙","remark":"✈️TG频道@stymei1","url": "https://collect.wolongzy.cc/api.php/provide/vod"},
         {"name": "👖暴风","remark":"✈️TG频道@stymei1","url": "http://by.bfzyapi.com/api.php/provide/vod"},
         {"name": "👖360","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/xyz"},
         {"name": "👖极速","remark":"✈️TG频道@stymei1","url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"},
@@ -208,6 +208,53 @@
     "codeID": "z5nxgZSWE8ipZYvGtImsRFu73TOB45fZ",
     "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Zhi_omofun.txt",
     "type": 101
+    },
+    {
+      "name": "👖Alist",
+      "version": 1,
+      "remark": "✈️TG频道@stymei1",
+      "webSite": "https://download.avemujica.org",
+      "codeID": "swAEnJ2uRVzAk8hp3Ba1Es6GfAk4TdpC",
+      "order": "B",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_alist.txt",
+      "type": 101
+    },
+    {
+      "name": "👖GD音乐台",
+      "version": 3,
+      "remark": "✈️TG频道@stymei1",
+      "webSite": "https://music.gdstudio.xyz/",
+      "codeID": "tyZWrAkjDWJ2fYaq4VNCWGYzVUD2onuZ",
+      "order": "B",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gdstudio.txt",
+      "type": 101
+    },
+    {
+      "name": "👖立播",
+      "version": 1,
+      "remark": "✈️TG频道@stymei1",
+      "webSite": "https://libvio.mov/",
+      "order": "C",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Xiu_libvio.js",
+      "type": 101
+    },
+    {
+      "name": "👖酷我听书",
+      "version": 1,
+      "remark": "✈️TG频道@stymei1",
+      "webSite": "http://tingshu.kuwo.cn",
+      "codeID": "USdWmrhBwHEAElFD428HKfByc0WbhzTw",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_kwts.txt",
+      "type": 101
+    },
+    {
+        "name": "👖彼心",
+        "version": 1,
+        "webSite": "https://www.bixbiy.com/",
+        "remark": "✈️TG频道@stymei1",
+        "codeID": "GAH7lICMJ4DRIRzTHx9h0rMkFi7pA3fP",
+        "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/bixin.txt",
+        "type": 101
     },
     {
         "name": "👖两个BT",
