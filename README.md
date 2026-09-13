@@ -4,7 +4,7 @@
 
 ---
 
-<img src="https://pan.baidu.re/view.php/41bd9c87450a80dc2a1f7a8731a37f1d.gif" alt="置顶GIF" />
+<img src="https://mpimg.cn/down.php/96bd4ac4754409a185cddb8735c3c06a.gif" alt="置顶GIF" />
 
 ---
 
@@ -15,7 +15,7 @@
 | ✈️ | Telegram频道 | [关注](https://t.me/stymei) |
 | ✈️ | Telegram群聊 | [进群](https://telegram.me/+j664EmVv8m0wZGVk) |
 | 🪜 | 永久节点订阅 | [复制](https://sub.445569.xyz) |
-| 📺 | 永久IPTV订阅 | [复制](https://live.445569.xyz/live.m3u) |
+| 📺 | 永久IPTV订阅 | [复制](https://iptv.445569.xyz/live.m3u) |
 | 🎥 | 永久TVbox订阅 | [复制](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg) |
 
 ---
