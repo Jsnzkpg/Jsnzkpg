@@ -4,7 +4,7 @@
 
 ---
 
-<img src="https://mpimg.cn/down.php/96bd4ac4754409a185cddb8735c3c06a.gif" alt="置顶GIF" />
+<img src="https://pan.uphui.com/view.php/41bd9c87450a80dc2a1f7a8731a37f1d.gif" alt="置顶GIF" />
 
 ---
 
