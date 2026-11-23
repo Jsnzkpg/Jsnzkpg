@@ -10,7 +10,7 @@
 
 | 图标 | 名称 | 地址 |
 |:---:|:---:|:---:|
-| 🔥 | 2元1000G机场 | [AD](https://789.st/zOo5vlX) |
+| 🔥 | 2元1000G机场 | [AD](https://kelayunjc.pages.dev) |
 | 👖 | 所有资源汇总 | [收藏](https://jsnzkpg.com) |
 | ✈️ | Telegram频道 | [关注](https://t.me/stymei) |
 | ✈️ | Telegram群聊 | [进群](https://telegram.me/+j664EmVv8m0wZGVk) |
